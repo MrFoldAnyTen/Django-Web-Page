@@ -8,8 +8,17 @@ git push -u origin master <br />
 <br />
 <br />
 
-cd ENV/
-source bin/activate
-pip install django
-python -m django --version
-django-admin startproject mysite
+cd ENV/<br />
+source bin/activate<br />
+pip install django<br />
+python -m django --version<br />
+django-admin startproject mysite<br />
+<br />
+cd mysite<br />
+python manage.py startapp polls<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
