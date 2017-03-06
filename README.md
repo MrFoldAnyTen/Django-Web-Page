@@ -14,6 +14,9 @@ pip install django<br />
 python -m django --version<br />
 django-admin startproject mysite<br />
 <br />
+<br />
+
+python manage.py runserver<br />
 cd mysite<br />
 python manage.py startapp polls<br />
 <br />
