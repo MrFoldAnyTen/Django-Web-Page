@@ -1,4 +1,6 @@
-Create repository from commandline  <br />
+virtualenv ENV  <br />
+cd ENV  <br />
+source bin/activate<br />
 <br />
 git init  <br />
 git add README.md <br />
