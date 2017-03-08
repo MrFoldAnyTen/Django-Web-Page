@@ -23,7 +23,18 @@ cd mysite<br />
 python manage.py startapp polls<br />
 <br />
 <br />
+set timezone <br />
+python manage.py migrate<br />
+add installed app <br />
+python manage.py makemigrations polls
 <br />
+(ENV) dylan@Malvin ~/temp/temp/temp/Django-Web-Page/ENV/mysite $ python manage.py makemigrations polls<br />
+Migrations for 'polls':<br />
+  polls/migrations/0001_initial.py:<br />
+    - Create model Choice<br />
+    - Create model Question<br />
+    - Add field question to choice<br />
+(ENV) dylan@Malvin ~/temp/temp/temp/Django-Web-Page/ENV/mysite $ <br />
 <br />
-<br />
+python manage.py migrate
 <br />
