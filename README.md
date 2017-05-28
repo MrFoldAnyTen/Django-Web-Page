@@ -1,4 +1,4 @@
-virtualenv ENV  <br />
+virtualenv -p python3 ENV  <br />
 cd ENV  <br />
 source bin/activate<br />
 <br />
